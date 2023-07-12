@@ -1,0 +1,110 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@media (min-width: 1700px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1420px;
+  }
+}
+/* .home {
+  min-height: 60vh;
+  width: 100%;
+  background-size: 150%;
+  background:url(/images/h1.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+  /* background: linear-gradient(rgba(1, 27, 255, 0.5), rgba(12, 0, 119, 0.3)); */
+/* justify-content: center; */
+:root {
+  --primary: hsl(217, 100%, 50%, 0.85);
+  --secondary: hsl(263, 98%, 42%, 0.85);
+}
+.home {
+  min-height: 60vh;
+  background: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url("/images/rrr.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.p {
+  color: rgb(247, 247, 83);
+  font-weight: bold;
+  font-size: 45px;
+}
+.r {
+  font-weight: bold;
+  font-size: 45px;
+}
+.para {
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+}
+.b {
+  border-width: 2px;
+  border-color: black;
+}
+.u {
+  font-weight: bold;
+  font-size: 42px;
+}
+.w {
+  background-color: yellow;
+  width: 185px;
+  height: 60px;
+}
+.o {
+  padding-left: 4rem;
+  font-size: 1.2rem;
+}
+.q {
+  padding-left: 2.3rem;
+  font-size: 1.2rem;
+}
+@media (max-width: 990px) {
+  .q {
+    padding-left: 3.8rem;
+  }
+}
+.overlay {
+  position: absolute;
+  display: block;
+  top: 10;
+  bottom: 0;
+  right: 400px;
+  opacity: 0.8;
+}
+.carousel-caption {
+  position: relative;
+  left: -34rem;
+  color: #fff;
+}
+.carousel{
+  top:12rem;
+  width: 100%;
+}
